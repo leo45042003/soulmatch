@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		
+<!-- 設定網頁編碼為UTF-8 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="loginStyle.css">
+	<script>
+		function Event(n, e) {
+				if (e == "true") {
+					document.getElementById(n.id).style.overflow = "visible";
+				} else {
+					document.getElementById(n.id).style.overflow = "hidden";
+				}
+			}
+	</script>
+
+	
+</head>
+
+<body>
+<div id="frame"> 
+	<div id="wrapper">
+		<div id="top_bar">
+				<img id="name" style="width:290px;height:100px;margin-left:5px;margin-top:15px;" src="banner_logo.png">
+
+				<ul id="apDiv1"  onmouseover="Event(this,'true');" onmouseout="Event(this,'');">
+					<li>
+						<a id="apDiv1_1" href="Home.php">關於我</a>
+					</li>
+					<li>
+						<a class="bar" href="Self.php">關於自己&nbsp &nbsp</a>
+					</li>
+					<li>
+						<a class="bar" href="test.php">測試結果&nbsp &nbsp</a>
+					</li>
+					<li>
+						<a class="bar" href="match.php">開始配對&nbsp &nbsp </a>
+					</li>
+					<li>
+						<a class="bar" href="help.php">愛情急診室  </a>
+					</li>
+					
+				</ul>
+				<ul id="apDiv2" onmouseover="Event(this,'true');" onmouseout="Event(this,'');">
+					<li>
+					<a id="apDiv2_1" href="slide/main.php">腦波/腦部測試系統</a>
+						
+					</li>
+					
+					<li>
+						<a class="bar" href="fix.php">腦波測試系統</a>
+					</li>
+					<li>
+						<a class="bar" href="explain.php">臉部測試系統</a>
+					</li>
+					
+				</ul>
+				<ul id="apDiv3" onmouseover="Event(this,'true');" onmouseout="Event(this,'');">
+					
+					<li>
+					<a id="apDiv3_1" href="activity.php">活動專區</a>	
+					</li>
+
+				</ul>
+				<ul id="apDiv4" onmouseover="Event(this,'true');" onmouseout="Event(this,'');">
+					<li>
+					<a id="apDiv4_1" href="Disvote.php">投票議題討論區</a>						
+					</li>
+					<li>				
+					<a class="bar" href="vote.php">投票議題區</a>				
+					</li>		
+					<li>				
+					<a class="bar" href="articledisscuss.php">議題討論區</a>					
+					</li>
+				</ul>
+				<ul id="apDiv5">
+					<li>
+					<a id="apDiv5_1" href="main.html">Home</a>
+					</li>					
+				</ul>
+			</div>
+
+		
+		<div id="main">
+			<p id="title"> 登入 </p>
+			<HR width="7%" id="HR1" size="3" color=black align="center">
+<form name="form" method="post" action="connect.php">
+<input type="text" name="id" id="ID" placeholder="帳號"/> <br>
+<input type="password" name="pw" id="PW" placeholder="密碼"/> <br>
+<input type="submit" name="button" value="Log in" id="logbtn"  />&nbsp;&nbsp;
+<input type="button" onclick="location.href='register.html'" value="Sign up" id="registerbtn" >
+
+</form>
+</div>
+
+
+</div>
+
+</div>
+</body>
+
+</html>

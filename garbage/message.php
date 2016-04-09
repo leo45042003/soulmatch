@@ -1,0 +1,52 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+</head>
+<body>
+	<form action="mboardcoonect.php" method="post">
+
+
+
+<table width="648" height="231" border="1">
+
+<tr>
+
+<td width="316" height="21" align="center">留言編號:<input type="text" name="title" size="30" maxlength="10"></td>
+
+<td width="316" align="center">留言者姓名:<input type="text" name="name" size="30" maxlength="10"></td>
+
+</tr>
+
+<tr>
+
+<td height="21" align="center">MAIL:<input type="text" name="email" size="30" maxlength="30"></td>
+
+<td height="21" align="center">留言時間:<input type="text" name="posttime" size="30" maxlength="15"></td>
+
+</tr>
+
+<tr>
+
+<td height="179" colspan="2" align="left" valign="top">留言內容:
+
+<textarea name="content" cols="70" rows="10"></textarea>
+
+</form></td>
+
+</tr>
+
+</table>
+
+<label>
+
+<input type="submit" name="submit" value="送出" />
+
+</label>
+</div>
+</body>
+
+</html>

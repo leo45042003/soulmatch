@@ -1,0 +1,131 @@
+#wrapper {
+	width: 980px;
+	height: 1000px;
+	background-image: url('background_ex.jpg');
+	margin: auto;
+	z-index: 1;
+}
+
+#top {
+	height: 470px;
+	margin-left: 150px;
+	background-image: url('logo.png');
+	background-repeat: no-repeat;
+	z-index: 2;
+}
+
+#bot {
+	margin-left: 450px;
+	height: 100px;
+	background-image: url('title.png');
+	background-repeat: no-repeat;
+	z-index: 5;
+}
+
+#icon1 {
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 220px;
+	height: 216px;
+	background-image: url('icon1.png');
+	background-repeat: no-repeat;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	z-index: 5;
+}
+#icon2 {
+	position: absolute;
+	margin-left: 285px;
+	margin-top: 20px;
+	width: 196px;
+	height: 216px;
+	background-image: url('icon2.png');
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	z-index: 5;
+}
+
+#icon3 {
+	position: absolute;
+	margin-left: 520px;
+	margin-top: 0px;
+	width: 197px;
+	height: 200px;
+	background-image: url('icon3.png');
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	z-index: 5;
+}
+#icon4 {
+	position: absolute;
+	margin-left: 730px;
+	margin-top: 0px;
+	width: 229px;
+	height: 200px;
+	background-image: url('icon4.png');
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	z-index: 8;
+}
+
+#W_icon1 {
+	position: absolute;
+	font-size: 30px;
+	color: white;
+	margin-left: 80px;
+	margin-top: 210px;
+}
+
+#W_icon2 {
+	position: absolute;
+	font-size: 30px;
+	color: white;
+	margin-left: 10px;
+	margin-top: 210px;
+}
+
+#W_icon3 {
+	position: absolute;
+	font-size: 30px;
+	color: white;
+	margin-left: 0px;
+	margin-top: 222px;
+}
+
+#W_icon4 {
+	position: absolute;
+	font-size: 30px;
+	color: white;
+	margin-left: 25px;
+	margin-top: 222px;
+}
+
+#arrow {
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 280px;
+	width: 220px;
+	height: 216px;
+	background-image: url('arrow.png');
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	z-index: 5;
+}
+#W_arrow {
+	position: absolute;
+	font-size: 30px;
+	margin-left: 210px;
+	margin-top: 82px;
+	outline: none;
+	text-decoration: none
+}

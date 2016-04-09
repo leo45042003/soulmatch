@@ -1,0 +1,19 @@
+main.php >>> explain.php >>  SDLogin.html >>>  paly.php (選擇電影) >>>按下圖片即開始撥放 子視窗 預設跳轉秒數 44000(毫秒) *再做更改 若網路LAG 會跳太快
+(SD 主畫面)                             登入成功                                         母視窗 預設跳轉秒數 45000   >>跳轉SD結果 (setTimeout("window.location.href='此處'",45000);) 
+                                          >>> 回explain.php                              *六個影片(子視窗) lemon.php , people.php , intern.php , machi.php, halloween,php, chinese,php
+                                        登入失敗
+
+*每個都有載入 SDcheck.php >>> session_start();
+              以及確認是否有session 若無則跳出 請先登入會員 警告視窗
+
+
+
+Home.php>>> 註冊 rigister.html >>> login.html
+                              成功
+
+            登入 >>> 跳回Home.php 
+                 失敗
+                 >>> 跳轉Self.php >>會顯示個人資訊 (因為突然增加一大堆欄位，美工需重新設計)
+                 成功
+
+

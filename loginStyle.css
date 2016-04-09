@@ -1,0 +1,247 @@
+#frame{
+	height:100%;
+	width: 100%;
+	background: url("ArticleDisscussion/bg.jpg") no-repeat ;
+	background-size: cover;
+}
+
+#wrapper {
+
+	width: 980px;
+	margin: auto;
+}
+#top_bar {
+	height: 200px;
+}
+
+
+#apDiv1, #apDiv2, #apDiv3, #apDiv4, #apDiv5 {
+	line-height: 43px;
+	height: 15px;
+	cursor: pointer;
+	overflow: hidden;
+	float: right;
+	list-style-type: none;
+	padding-top: 50px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	font-size: 18px;
+	color: #F2668F;
+    font: normal normal normal 14px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+}
+#apDiv1_1
+{	width:50px;
+	padding-top: 10px;
+	height: 15px;
+	cursor: pointer;
+	overflow: hidden;
+	margin-left: 0px;
+	list-style-type: none;
+	font-size: 18px;
+	color: #F2668F;
+	border-top: 1px solid rgba(242, 102, 143, 1);
+	
+}
+#apDiv1_1:hover{    
+	color: rgba(145, 111, 24, 1);
+	border-top-width: 4px;
+    border-top-color: rgba(145, 111, 24, 1);
+	padding-top:5px;
+	
+}
+#apDiv2_1{
+	padding-top: 10px;
+	height: 15px;
+	cursor: pointer;
+	overflow: hidden;
+	margin-left: 0px;
+	list-style-type: none;
+	font-size: 18px;
+	color: #F2668F;
+	border-top: 1px solid rgba(242, 102, 143, 1);
+	
+}
+#apDiv2_1:hover{
+	color: rgba(145, 111, 24, 1);
+	border-top-width: 4px;
+    border-top-color: rgba(145, 111, 24, 1);
+}
+#apDiv3_1{
+	padding-top: 10px;
+	height: 15px;
+	cursor: pointer;
+	overflow: hidden;
+	margin-left: 0px;
+	list-style-type: none;
+	font-size: 18px;
+	color: #F2668F;
+	border-top: 1px solid rgba(242, 102, 143, 1);
+	
+}
+#apDiv3_1:hover{
+	color: rgba(145, 111, 24, 1);
+	border-top-width: 4px;
+    border-top-color: rgba(145, 111, 24, 1);
+	}
+	
+#apDiv4_1{
+	padding-top: 10px;
+	height: 15px;
+	cursor: pointer;
+	overflow: hidden;
+	margin-left: 0px;
+	list-style-type: none;
+	font-size: 18px;
+	color: #F2668F;
+	border-top: 1px solid rgba(242, 102, 143, 1);
+	
+}
+#apDiv4_1:hover{
+	color: rgba(145, 111, 24, 1);
+	border-top-width: 4px;
+    border-top-color: rgba(145, 111, 24, 1);
+	}
+#apDiv5_1{
+	
+	height: 15px;
+	cursor: pointer;
+	overflow: hidden;
+	margin-left: 10px;
+	list-style-type: none;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	font-size: 18px;
+	color: #F2668F;
+	border-top: 1px solid rgba(242, 102, 143, 1);
+}
+#apDiv5_1:hover{
+
+	color: rgba(145, 111, 24, 1);
+	border-top-width: 4px;
+    border-top-color: rgba(145, 111, 24, 1);
+}
+#apDiv1:hover {
+    color: #FCB5B5;
+    transition: color 0.4s ease 0s;
+}
+
+#apDiv2:hover {
+
+	color: #FCB5B5;
+    transition: color 0.4s ease 0s;
+}
+#apDiv3:hover {
+
+	color: #FCB5B5;
+    transition: color 0.4s ease 0s;
+}
+#apDiv4:hover {
+
+	color: #FCB5B5;
+    transition: color 0.4s ease 0s;
+}
+#apDiv5:hover {
+
+	color: #FCB5B5;
+    transition: color 0.4s ease 0s;
+}
+
+
+li a {
+	font-size: 16px;
+	color: #F2668F; 
+	
+	border-top: 1px solid rgba(242, 102, 143, 1);
+	text-decoration: none;
+	font-weight: normal;
+
+}
+li a:hover {
+		color: rgba(145, 111, 24, 1);
+	border-top-width: 4px;
+    border-top-color: rgba(145, 111, 24, 1);
+}
+
+.bar{
+	 font: normal normal normal 14px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+	background-color:white;
+	color: #F2668F;
+	border-top: 1px solid rgba(242, 102, 143, 1);
+	line-height:60px;
+	padding:20px 15px;
+    border-radius:6px;
+}
+
+
+
+#title {
+	position: absolute;
+	margin-left: 165px;
+	margin-top: -80px;
+	line-height: normal;
+	letter-spacing: normal;
+	font: normal normal normal 20px/1.4em spinnaker, sans-serif;
+	color:#C78725;
+}
+
+#HR1{
+	border:1px #C78725 solid; 
+	position: absolute;
+	margin-left: 170px;
+	margin-top: -30px;
+}
+
+#main {
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -170px 0 0 -200px;
+}
+
+#ID {
+	font: normal normal normal 16px/1.4em overlock, sans-serif;
+	background-color: rgba(255, 241, 219, 1);
+    border: 2px solid rgba(142, 108, 87, 1);
+    color: #C78725;
+	margin: 0 0 5px;
+	width: 380px;
+	height: 30px;
+}
+
+#PW {
+
+	font: normal normal normal 16px/1.4em overlock, sans-serif;
+	background-color: rgba(255, 241, 219, 1);
+    border: 2px solid rgba(142, 108, 87, 1);
+    color: #C78725;
+	margin: 0 0 5px;
+	width: 380px;
+	height: 30px;
+}
+
+#registerbtn{    
+	background-color: rgba(142, 108, 87, 1);
+    font: normal normal normal 16px/1.4em overlock,sans-serif;
+    border: 0;
+    color: #FFF1DB;
+	cursor: pointer;
+
+margin-left:242px;
+	max-width: 35%;
+	
+}
+#logbtn {
+
+	background-color: rgba(142, 108, 87, 1);
+    font: normal normal normal 16px/1.4em overlock,sans-serif;
+    border: 0;
+    color: #FFF1DB;
+	cursor: pointer;
+	float: right;
+	margin: 0;
+	max-width: 35%;
+}

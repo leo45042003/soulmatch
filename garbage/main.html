@@ -1,0 +1,131 @@
+<html>
+	<head>
+		<style type="text/css">
+			#container{
+				height: 625;
+			    display: -webkit-flex;
+  				display:         flex;
+  				-webkit-align-items: center;
+          				align-items: center;
+  				-webkit-justify-content: center;
+          				justify-content: center;
+			}
+			#boxes{
+				height: 450;
+				width: 900;				
+			}
+			.box{
+				height: 225;
+				width: 350;	
+							
+			}
+			#leftBox{
+				float:left;
+				height: 450;
+				width: 200;
+			}
+			#logo{
+			width:200px;
+			height:80px;
+			}
+			#upperLeftBox{
+				float:left;	
+			}
+			#upperRightBox{
+				float:right;	
+                cursor: pointer !important;			
+			}
+			#lowerLeftBox{
+				float:left;
+			}
+			#lowerRightBox{
+				float:right;
+			}
+			strong{
+				margin-top: 20;
+			}
+			div#upperLeftBox:hover img{
+				-webkit-animation-duration: 1s;
+				animation-duration: 1s;
+				-webkit-animation-name: hoverColor;	
+  				animation-name: hoverColor;		
+  				-webkit-animation-fill-mode: forwards;
+				animation-fill-mode: forwards;				
+			}
+			div#upperRightBox:hover img{
+				-webkit-animation-duration: 1s;
+				animation-duration: 1s;
+				-webkit-animation-name: hoverColor;	
+  				animation-name: hoverColor;	
+  				-webkit-animation-fill-mode: forwards;
+				animation-fill-mode: forwards;					
+			}
+			div#lowerLeftBox:hover img{			
+				-webkit-animation-duration: 1s;
+				animation-duration: 1s;
+				-webkit-animation-name: hoverColor;	
+  				animation-name: hoverColor;	
+  				-webkit-animation-fill-mode: forwards;
+				animation-fill-mode: forwards;					
+			}
+			div#lowerRightBox:hover img{
+				-webkit-animation-duration: 1s;
+				animation-duration: 1s;
+				-webkit-animation-name: hoverColor;	
+  				animation-name: hoverColor;	
+  				-webkit-animation-fill-mode: forwards;
+				animation-fill-mode: forwards;					
+			}
+			
+			@keyframes hoverColor{
+				0% {
+					opacity: 1;
+				}
+				100% {
+					opacity: 0.5;
+				}
+			}
+			@-webkit-keyframes hoverColor{
+				0% {
+					opacity: 1;
+				}
+				100% {
+					opacity: 0.5;
+				}
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<div id="container">
+			<div id="header"> </div>
+			<div id="boxes">
+				<div id="leftBox">
+					<img id="logo" src="banner_logo.png">;
+					</br>
+					
+					</br>
+					
+					</br>
+				</div>
+				<div class="box" id="upperLeftBox">
+					
+					<a href="main.php"><img src="heartbeat.png" width="350" height="225" /></a>
+					<strong>HeartBeat</strong>
+				</div>
+				<div class="box" id="upperRightBox">
+					<a href="fix.php"><img src="activity.jpg" width="350" height="225" /></a>
+					<strong>Activity</strong>
+				</div>
+				<div class="box" id="lowerLeftBox">
+					<a href="Disvote.php"><img src="discussion.jpg" width="350" height="225" /></a>
+				</div>
+				<div class="box" id="lowerRightBox">
+					<a href="Home.php"><img src="membership.jpg" width="350" height="225" /></a>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,190 @@
+#wrapper {
+	width: 1300px;
+	margin: auto;
+}
+
+#title {
+	font-size: 50px;
+	text-align: center;
+}
+
+#movies {
+
+	height: 600px;
+	border: 10px solid #ccc;
+}
+
+#block1 {
+
+	float: left;
+	width: 416px;
+	height: 290px;
+	border: 5px solid #ccc;
+}
+
+#block1_video {
+	position: absolute;
+	background-image: url(baby.png);
+	margin-left: 75px;
+	margin-top: 50px;
+	width: 280px;
+	height: 218px;
+	border: none;
+	cursor: pointer;
+}
+#block1_video:hover {
+
+	position: absolute;
+	background-image: url(baby1.png);
+	margin-left: 75px;
+	margin-top: 50px;
+	width: 280px;
+	height: 218px;
+	border: none;
+	cursor: pointer;
+}
+
+#block2 {
+
+	float: left;
+	width: 416px;
+	height: 290px;
+	border: 5px solid #ccc;
+}
+
+#block2_video {
+	position: absolute;
+	background-image: url(green.png);
+	margin-left: 75px;
+	margin-top: 54px;
+	width: 280px;
+	height: 218px;
+	border: none;
+	cursor: pointer;
+}
+#block2_video:hover {
+	position: absolute;
+	background-image: url(green1.png);
+	margin-left: 75px;
+	margin-top: 54px;
+	width: 280px;
+	height: 218px;
+	border: none;
+	cursor: pointer;
+}
+
+#block3 {
+
+	float: left;
+	width: 418px;
+	height: 290px;
+	border: 5px solid #ccc;
+}
+
+#block3_video {
+	position: absolute;
+	background-image: url(halloween.png);
+	margin-left: 75px;
+	margin-top: 54px;
+	width: 280px;
+	height: 218px;
+	border: none;
+	cursor: pointer;
+}
+#block3_video:hover {
+	position: absolute;
+	background-image: url(halloween1.png);
+	margin-left: 75px;
+	margin-top: 54px;
+	width: 280px;
+	height: 218px;
+	border: none;
+	cursor: pointer;
+}
+
+
+#block4 {
+
+	float: left;
+	width: 416px;
+	height: 290px;
+	border: 5px solid #ccc;
+}
+#block4_video {
+	position: absolute;
+	background-image: url(interm.png);
+	margin-left: 75px;
+	margin-top: 54px;
+	width: 280px;
+	height: 218px;
+	border: none;
+	cursor: pointer;
+}
+#block4_video:hover {
+	position: absolute;
+	background-image: url(interm1.png);
+	margin-left: 75px;
+	margin-top: 54px;
+	width: 280px;
+	height: 218px;
+	border: none;
+	cursor: pointer;
+}
+
+#block5 {
+
+	float: left;
+	width: 416px;
+	height: 290px;
+	border: 5px solid #ccc;
+}
+
+#block5_video {
+	position: absolute;
+	background-image: url(ted.png);
+	margin-left: 75px;
+	margin-top: 54px;
+	width: 280px;
+	height: 218px;
+	border: none;
+	cursor: pointer;
+}
+#block5_video:hover {
+	position: absolute;
+	background-image: url(ted1.png);
+	margin-left: 75px;
+	margin-top: 54px;
+	width: 280px;
+	height: 218px;
+	border: none;
+	cursor: pointer;
+}
+#block6 {
+
+	float: left;
+	width: 418px;
+	height: 290px;
+	border: 5px solid #ccc;
+}
+
+#block6_video {
+	position: absolute;
+	background-image: url(tgop.png);
+	margin-left: 75px;
+	margin-top: 54px;
+	width: 280px;
+	height: 218px;
+	border: none;
+	cursor: pointer;
+}
+#block6_video:hover {
+	position: absolute;
+	background-image: url(tgop1.png);
+	margin-left: 75px;
+	margin-top: 54px;
+	width: 280px;
+	height: 218px;
+	border: none;
+	cursor: pointer;
+}
+
