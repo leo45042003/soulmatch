@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+﻿<?php session_start(); ?>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -116,7 +116,7 @@
 					腦波/臉部辨識結果
 				</p>
 				<p  style="font-weight: bolder" id="Pmr_right" >
-					我的Mr./Mrs.Right
+					我的Mr./Mrs.Rights
 				</p>
 			</div>
 
